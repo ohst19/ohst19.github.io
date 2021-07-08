@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+<!-- {{random}} variable prevents browser caching -->
+{% block main %}
+
+<img width="30%" alt="Error Image" class="border" src="../static/meme/output.png?dummy={{ random }}">
+
+{% endblock %}
